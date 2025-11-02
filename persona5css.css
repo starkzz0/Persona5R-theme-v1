@@ -1,0 +1,1221 @@
+/*
+  ~~ Persona5-theme.css ~~ - version 0.2
+  (Renewed by Starkz from original chika.css by AnzuFTNW)
+
+  Credit to https://github.com/AnzuFTNW for the original chika.css
+  Modified by Starkz to fit Persona 5's theme
+  My anilist- ( https://anilist.co/user/Starkz/ ) 
+  
+  I respectfully ask you to not use this css without my permission.
+  This css belongs to v1 persona5 theme on Starkz's Anilist.
+
+  If you have any questions, please contact me on Discord: starkzz_
+
+  ! DO NOT REMOVE THIS CREDIT !
+
+  !	THIS CODE IS A MESS, AND I AM NOT A PROGRAMMER, SO PLEASE DO NOT JUDGE ME FOR IT.
+
+  !USE AT YOUR OWN RISK!
+
+  ~ Do not shamelessly claim this as your own.
+  ~ original author: AnzuFTNW
+  ~ modified by: Starkz
+  ~ version: 0.2
+  ~ date: 2025-11-01
+  ~ license: MIT
+  ~ copyright: 2025 Starkz
+  ~ copyright: 2021 AnzuFTNW
+  ~ copyright: 2025 Persona 5 
+
+  ~ If you use this css, please credit me and the original author on Anilist.
+
+  ~ This is a custom theme for Anilist.co, and is not affiliated with Anilist.co in any way.
+
+  ~ All images used from persona5 are copyrighted to Atlus.
+
+  == Personal Note ==
+
+  ~ I am not a professional programmer, so please do not judge me for the code. And this is my first time using css and modifying css. 
+  The original code was written by AnzuFTNW, and I have modified it to fit Persona 5's theme.
+  As of now, This css will seem like a mess, but I will be fixing it as I go along.
+  And this css will stay in my profile until i make another one.
+
+  ==	Thanks to AnzuFTNW for the original code and free usage of his css ==
+
+  ~ I make anilist layouts, so if you want a layout, please contact me on Discord: starkzz_
+  ~ I soon hope to provide css with the layouts i make, so please stay tuned.
+  ~ would be few css templates, as this work is alot messy, and i am not a professional programmer. And I have no idea to make css templates. 
+
+  ++ Thankssss! ++
+
+  Anilist.co Custom Theme
+  Customize the variables below to personalize your theme!
+*/
+
+/* ====================================================================================================
+   ⚠️  LEGAL DISCLAIMER  ⚠️
+   ====================================================================================================
+   
+   This is a derivative work based on chika.css by AnzuFTNW (available on GitHub). This modified
+   version is for educational and personal use only. All original authors are credited.
+   
+   Provided "as is" without warranty. Use at your own risk. Author not liable for any damages.
+   This work is transformative with significant modifications and proper attribution.
+   
+   ⚠️  Before reporting, please contact: Discord: starkzz_ | AniList: https://anilist.co/user/Starkz/
+   
+   ==================================================================================================== */
+
+/* ====================================================================================================
+   yo what's up 👋 
+   ====================================================================================================
+   
+   okay so you found my css!! that's actually pretty cool ngl 
+   
+   real quick - huge shoutout to anzuftnw fr!! their original chika.css was on github for 
+   free and honestly? major respect for sharing their work. wouldn't have this without them.
+   
+   anyway so this version? yeah i modified it. spent way too much time on this tbh lol
+   fixed stuff, added things, made it persona 5 themed - basically made it mine. original 
+   was free to use but like... maybe ask me about this one? would be nice yk
+   
+   what i'm asking:
+   ⚠️  pls don't just yoink this and paste it in your profile without asking first
+   
+   ik it sounds extra but like... i worked on this?? and i'd like to know where it goes?
+   not trying to be controlling or anything - just wanna know what's up. plus i might be 
+   able to help you out if you need changes!
+   
+   what you CAN do:
+   ✅ study the code all you want - go for it!
+   ✅ use it as inspo - absolutely go wild!!
+   ✅ take ideas/techniques - just credit if you do
+   ✅ hit me up if you wanna use it - i'm chill i promise! 😊
+   
+   what i'd prefer you NOT do:
+   ❌ don't copy it directly without asking
+   ❌ don't remove the credit lines (they exist for a reason)
+   ❌ don't say you made it from scratch
+   ❌ don't share it like it's free to use everywhere - just send people to ask me
+   ❌ don't use css spy (voidverified's tool) to steal this code - if you're gonna take it, 
+      at least have the decency to ask first instead of using sneaky tools
+   
+   btw if you're here via css spy or similar tools:
+   yeah i know about those tools. if you're using css spy to grab this code without asking,
+   that's kinda messed up ngl. this isn't free for the taking just because a tool makes it
+   easy to copy. have some respect for the work that went into this and just... ask? it's
+   not that hard. tools like css spy make it way too easy to steal work without thinking
+   about the person behind it, but you can still choose to do the right thing.
+   
+   wanna use it?
+   just dm me on discord (starkzz_) or message me on anilist! let me know who you are and 
+   what you're planning to do with it. super down to chat about it tbh
+   
+   also like... i'm not trying to be difficult okay?? i just put effort into this and want
+   to know where it's going. plus if you ask, i can help customize it or fix stuff for you!
+   
+   learning/studying stuff:
+   wanna study it? learn from it? get inspired? all good with me!! just maybe mention if 
+   you use something specific. we're all learning here yk
+   
+   also pls credit both me (starkz) and anzu if you do end up using it. they deserve it too!
+   
+   thanks for reading all this and being cool about it <3
+   questions? just ask - i don't bite! :)
+   
+   - starkz
+   discord: starkzz_
+   anilist: https://anilist.co/user/starkz/
+   
+   p.s. - if you're wondering why i care so much? this is my first big css project and i'm 
+   weirdly attached to it lol hope that makes sense!
+   
+   p.p.s. - but fr if you use it and run into issues, hmu!! community is about helping each 
+   other out and i'm always down to help <3
+   
+   ==================================================================================================== */
+
+/* ====================================================================================================
+   IMPROVEMENTS AND ENHANCEMENTS BY STARKZ
+   (Based on original chika.css by AnzuFTNW)
+   ====================================================================================================
+   
+   With deep respect and gratitude to AnzuFTNW for the excellent foundation, the following
+   enhancements and refinements have been implemented to further improve functionality and
+   maintainability:
+   
+   1. CSS IMPORTS - Enhanced Dependencies
+      - Integrated shadowless-banner.css import for improved banner styling
+      - Integrated simple-bg.css import for enhanced background management
+      - Ensures all required dependencies are properly loaded
+   
+   2. FULL SCREEN BACKGROUND - Comprehensive Implementation
+      - Implemented complete body::before background system
+      - Added full-screen background with proper z-index layering
+      - Enhanced background image support with customizable blur effects
+      - Refined #app positioning for seamless integration with background layer
+   
+   3. LOGO SYSTEM - Enhanced Functionality
+      - Updated logo image URL to current working source
+      - Implemented proper z-index management for correct layering
+      - Added pointer-events: none for improved user interaction
+      - Integrated opacity transitions for smooth visibility changes
+      - Applied necessary !important flags for reliable style application
+   
+   4. ACTIVITY FEED LAYOUT - Optimized Grid System
+      - Refined grid-template-columns from repeat(3, 1fr) to repeat(1, 1fr)
+      - Optimized for single-column layout ensuring proper entry display
+      - Prevents layout conflicts and improves visual consistency
+   
+   5. CONTENT-WRAP - Enhanced Overflow Management
+      - Added .overview .content-wrap[data-v-5c30286e] rule with overflow handling
+      - Implemented max-height: initial !important for flexible content display
+      - Ensures content visibility and prevents unintended clipping
+   
+   6. PROFILE COLOR SYSTEM - Refined Color Hooks
+      - Enhanced --cp-accent-color and --cp-accent-color-dim with distinct values
+      - Updated from (238, 212, 219) to (252, 56, 56) and (250, 115, 115)
+      - Enables proper visual hierarchy for hover states and interactive elements
+   
+   7. INTELLIGENT LOGO HIDING - User Experience Enhancement
+      - Implemented automatic logo hiding when activity editor is active
+      - Utilizes modern :has() selector for elegant parent-based detection
+      - Prevents visual conflicts and improves interface clarity
+   
+   8. LOGO ANIMATIONS - Interactive Enhancements
+      - Added logoFloat keyframe animation for subtle, elegant floating effect
+      - Implemented logoRotate keyframe animation for engaging hover interactions
+      - Enhances visual appeal and user engagement through smooth transitions
+   
+   9. LOGO POSITIONING - Advanced Layer Management
+      - Implemented comprehensive z-index strategy (z-index: 1)
+      - Added pointer-events: none for optimal interaction handling
+      - Integrated smooth opacity transitions for professional show/hide effects
+      - Improved integration with overall page layout architecture
+   
+   10. OVERVIEW SECTION - Enhanced Organization
+       - Reinforced .content.container > .overview rule for better structure
+       - Improved content display organization and hierarchy
+   
+   11. CODE QUALITY - Maintainability Improvements
+       - Organized code structure with clear sectioning
+       - Enhanced readability and documentation
+       - Improved maintainability for future updates and customizations
+   
+   Note: All improvements are built upon the solid foundation provided by AnzuFTNW's original work.
+   These enhancements aim to complement the existing design philosophy while improving
+   functionality and user experience.
+   
+   ==================================================================================================== */
+
+/* ====================================================================================================
+   FEATURES ADDED FROM ORIGINAL FILE
+   ====================================================================================================
+   
+   The following features have been added or enhanced compared to the original chika.css:
+   
+   1. ENHANCED HEADER & DOCUMENTATION
+      - Comprehensive header with detailed credits and attribution
+      - Version information and modification history
+      - License and copyright information
+      - Personal notes and usage instructions
+   
+   2. IMPROVED CODE ORGANIZATION
+      - Clear section dividers with visual separators
+      - Organized sections: IMPORTS, CONFIGURATION, CORE, NAVIGATION, HEADER, CONTENT, etc.
+      - Better code structure and readability
+   
+   3. ENHANCED COMMENTS & DOCUMENTATION
+      - More descriptive inline comments throughout the codebase
+      - Explanatory notes for complex CSS selectors
+      - Clear labeling of customization points
+      - Better documentation for each major section
+   
+   4. CUSTOM LOGO ANIMATIONS
+      - logoFloat keyframe animation for subtle floating effect
+      - logoRotate keyframe animation for hover rotation effect
+      - Enhanced logo styling with brightness and glow effects
+      - Support for both .logo and .nav-logo selectors
+   
+   5. ENHANCED CUSTOM LOGO POSITIONING
+      - Improved z-index management for proper layering
+      - Pointer-events: none for non-interactive logo
+      - Opacity transitions for smooth visibility changes
+      - Fixed logo image URL (replaced broken URL from original)
+   
+   6. SMART LOGO HIDING
+      - Logo automatically hides when activity editor is hovered/focused
+      - Uses :has() selector for parent-based styling
+      - Smooth opacity transition when hiding/showing
+   
+   7. ENHANCED VARIABLE ORGANIZATION
+      - Better grouping of CSS custom properties
+      - Clear separation of visual settings, animation settings, and color hooks
+      - More descriptive variable comments
+   
+   8. IMPROVED RESPONSIVE DESIGN COMMENTS
+      - Clearer media query documentation
+      - Better mobile responsiveness notes
+   
+   9. BETTER ACTIVITY FEED ORGANIZATION
+      - Clearer separation between different activity types
+      - Enhanced comments for list activities, text activities, etc.
+      - Better documentation of activity entry styling
+   
+   10. ENHANCED CONFIGURATION SECTION
+       - Dedicated configuration section with clear customization points
+       - Better variable organization for easy theme customization
+       - More detailed color variable explanations
+   
+   ==================================================================================================== */
+
+/* ====================================================================================================
+   IMPORTS
+   ==================================================================================================== */
+@import url("https://anzuftnw.github.io/files/dehohification.css");
+@import url("https://anzuftnw.github.io/files/shadowless.css");
+@import url("https://anzuftnw.github.io/files/custom-profile-color.css");
+@import url("https://anzuftnw.github.io/files/color-unification.css");
+@import url("https://anzuftnw.github.io/files/shadowless-banner.css");
+@import url("https://anzuftnw.github.io/files/simple-bg.css");
+
+/* ====================================================================================================
+   CONFIGURATION - CUSTOMIZE YOUR THEME HERE
+   ==================================================================================================== */
+
+/* Color Variables - RGB values (without rgb() wrapper) */
+/* 
+   HOW TO CHANGE COLORS:
+   - Colors are in RGB format (red, green, blue) WITHOUT the rgb() wrapper
+   - Example: To use pure red, change to: 255, 0, 0
+   - To find RGB values, use online color pickers or image editing tools
+   - Values range from 0 to 255 for each color
+*/
+:root {
+	/* Main Colors */
+	--background-color: 237, 241, 245;     /* Page background color - change this for main theme color */
+	--foreground-color: 250, 250, 250;     /* Card/container background color - usually lighter or same as background */
+	--text-color: 29, 25, 20;               /* Main text color - ensure good contrast with background */
+	--brand-color: 238, 212, 219;          /* Brand/primary accent color - used throughout the theme */
+	
+	/* Accent Colors */
+	--accent-color1: 195, 255, 255;         /* Secondary accent color for highlights */
+	--accent-color2: 0;                     /* Tertiary accent color (currently unused) */
+}
+
+/* Dark Theme Colors */
+.site-theme-dark {
+	--background-color: 29, 25, 20;
+	--foreground-color: 15, 15, 5;
+	--text-color: 240, 240, 240;
+	--brand-color: 238, 212, 219;
+	--accent-color1: 195, 255, 255;
+	--accent-color2: 237, 196, 166;
+}
+
+/* Theme Settings - Applied to all themes */
+/* 
+   HOW TO CUSTOMIZE THEME SETTINGS:
+   - Adjust border radius for rounder/sharp corners
+   - Modify shadows for depth effects
+   - Change animation speeds (lower = faster, higher = slower)
+   - Update color hooks to match your theme
+*/
+:root,
+.site-theme-dark,
+.site-theme-contrast {
+	/* Visual Settings */
+	--br: 15px;                              /* Border radius - increase for rounder corners (e.g., 20px), decrease for sharper (e.g., 5px) */
+	--bs: 3px 3px 5px #00000020;             /* Box shadow - format: x-offset y-offset blur color (change last value for opacity) */
+	--hbs: 3px 3px 0 #6464640d;              /* Hover box shadow - shadow that appears on hover */
+	
+	/* Animation Settings */
+	/* 
+	   HOW TO CHANGE ANIMATION SPEEDS:
+	   - Format: property duration easing
+	   - Lower number = faster animation (e.g., 0.1s = very fast)
+	   - Higher number = slower animation (e.g., 0.5s = slower)
+	   - Easing options: ease, ease-in, ease-out, ease-in-out, linear
+	*/
+	--hbst: box-shadow 0.1s ease;            /* Hover box-shadow transition - shadow animation speed */
+	--htt: transform 0.3s ease;               /* Hover transform transition - rotation/movement animation speed */
+	--hct: color 0.15s ease;                 /* Hover color transition - color change animation speed */
+	--hft: filter 0.2s ease;                 /* Hover filter transition - brightness/blur animation speed */
+	
+	/* Custom Profile Color Hook */
+	/* These colors are used for profile accents and highlights */
+	--cp-accent-color: 252, 56, 56;          /* Main profile accent color - change to match your theme */
+	--cp-accent-color-dim: 250, 115, 115;    /* Dimmed version of accent color for hover states */
+	
+	/* Color Translation (for compatibility) */
+	/* These map to various UI elements - modify if you want specific colors for specific elements */
+	--color-background: var(--background-color);
+	--color-foreground: var(--foreground-color);
+	--color-text: var(--text-color);
+	--color-blue: var(--cp-accent-color);     /* "Blue" color (used for links, buttons) - doesn't have to be blue! */
+	--color-blue-dim: var(--cp-accent-color-dim);
+	--color-red: 232, 93, 117;                /* Red color for errors/important items */
+	--color-green: var(--color-red);          /* Green color (currently same as red) - used for manga titles */
+	--color-yellow: 61, 180, 242;             /* Yellow color - used for anime titles */
+}
+
+/* ====================================================================================================
+   FULL SCREEN BACKGROUND
+   ==================================================================================================== */
+/* 
+   HOW TO CUSTOMIZE BACKGROUND:
+   1. Change the image URL on line 198 to your own image URL
+      - Upload to imgur, catbox.moe, or your own hosting
+      - Replace the URL between the quotes
+   
+   2. Adjust blur amount:
+      - 0px = no blur (sharp image)
+      - 3px = light blur (default)
+      - 5px+ = heavy blur (very soft)
+   
+   3. Change background-size if needed:
+      - "cover" = fills entire screen (may crop)
+      - "contain" = shows entire image (may leave gaps)
+      - "100% 100%" = stretches to fill
+   
+   4. Adjust background-position:
+      - "center" = centered (default)
+      - "top left", "bottom right", etc.
+   
+   5. To remove background image entirely:
+      - Remove or comment out the "background-image" line
+      - Only the solid color will show
+*/
+body::before {
+	content: "" !important;
+	position: fixed !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 100vw !important;
+	height: 100vh !important;
+	z-index: -9999 !important;
+	background: rgb(var(--color-background)) !important;
+	background-image: url("https://files.catbox.moe/mtc92f.png") !important;  /* CHANGE THIS URL to your image */
+	background-size: cover !important;                                        /* Options: cover, contain, 100% 100% */
+	background-position: center !important;                                  /* Options: center, top, bottom, left, right, or combinations */
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+	filter: blur(1px) !important;                                             /* Adjust blur: 0px = no blur, 5px = more blur */
+	pointer-events: none !important;
+}
+
+#app {
+	position: relative;
+	z-index: 1;
+}
+
+/* ====================================================================================================
+   CORE STYLES
+   ==================================================================================================== */
+a {
+	transition: var(--hct);
+}
+
+#app > div > .user {
+	margin-top: 105px;                        /* Adjust spacing from top of page - increase for more space, decrease for less */
+}
+
+/* ====================================================================================================
+   NAVIGATION BAR
+   ==================================================================================================== */
+#nav {
+	background: rgb(var(--color-foreground));
+	color: rgb(var(--color-text));
+}
+
+.nav {
+	transition: var(--hbst), height 0.5s ease !important;
+	border-radius: 0 0 var(--br) var(--br);
+}
+
+.nav.nav-unscoped {
+	width: 75%;                               /* Navigation bar width - change to 100% for full width, or smaller % for narrower */
+	height: 50px;                             /* Navigation bar height - increase for taller nav, decrease for shorter */
+	left: 12.5%;                               /* Horizontal position - adjust to center (if width is 75%, left should be 12.5%) */
+}
+
+.nav.nav-unscoped.transparent {
+	height: 75px;
+}
+
+.nav.nav-unscoped:hover {
+	box-shadow: var(--hbs);
+	height: 75px;
+}
+
+.hide {
+	top: unset !important;
+}
+
+/* Navigation Links */
+.nav.nav-unscoped > div > div > .link {
+	transition: var(--hct);
+}
+
+.nav.nav-unscoped > div > div > .link:hover,
+.nav.nav-unscoped > div > div > span > .link:hover {
+	color: rgb(var(--color-blue));
+}
+
+/* Navigation Icons */
+.nav.nav-unscoped > div > div > div > .chevron {
+	opacity: 1;
+	color: rgb(var(--color-text), .5);
+	transition: var(--hct);
+}
+
+.nav.nav-unscoped > div > div > .user-wrap:hover > .chevron {
+	color: rgb(var(--color-text));
+}
+
+.nav.nav-unscoped > div > .search > svg {
+	color: rgb(var(--color-text), .5);
+	transition: var(--hct);
+}
+
+.nav.nav-unscoped > div > .search:hover > svg {
+	color: rgb(var(--color-text));
+}
+
+/* Custom Site Logo */
+/* 
+   HOW TO CUSTOMIZE LOGO ANIMATIONS:
+   
+   logoFloat animation (floating effect):
+   - Change -5px to different values (e.g., -10px for more float, -3px for less)
+   - Adjust duration in logo img animation property below
+   
+   logoRotate animation (hover spin):
+   - Change 360deg to 180deg for half rotation, or 720deg for double rotation
+   - Change 1.15 to 1.3 for bigger zoom, or 1.05 for smaller zoom
+   - Adjust duration in logo img:hover animation property below
+*/
+@keyframes logoFloat {
+	0%, 100% {
+		transform: translateY(0px);          /* Start and end position */
+	}
+	50% {
+		transform: translateY(-5px);         /* Peak float height - increase for more float */
+	}
+}
+
+@keyframes logoRotate {
+	from {
+		transform: translateY(0px) rotate(0deg) scale(1);      /* Starting position */
+	}
+	to {
+		transform: translateY(0px) rotate(360deg) scale(1.15); /* 360deg = full rotation, 1.15 = 15% bigger */
+	}
+}
+
+.logo img {
+	/* HOW TO CHANGE LOGO IMAGE: Replace the URL below with your logo image URL */
+	content: url("https://media.discordapp.net/attachments/1347614094391513110/1433115595989323857/218a0aefd1d1a4be65601cc6ddc1520e.png?ex=6906d028&is=69057ea8&hm=40cef4ec0567a37d1ba591da05b309d3221adcc704eedbafa369efe857711da0&=&format=webp&quality=lossless&width=350&height=350") !important;
+	width: 50px !important;                    /* Logo width - adjust to match your logo size */
+	height: 44px !important;                   /* Logo height - adjust to match your logo size (keep ratio if needed) */
+	transition: filter 0.5s ease !important;   /* Filter transition speed - change 0.5s to adjust */
+	animation: logoFloat 3s ease-in-out infinite !important;  /* Float animation: 3s = duration (change for faster/slower), infinite = repeats forever */
+	transform-origin: center center !important;
+}
+
+.logo img:hover {
+	/* HOW TO CUSTOMIZE HOVER EFFECT:
+	   - Change 0.8s to adjust spin animation speed
+	   - Change 1.4 to adjust brightness (1.0 = normal, 1.5 = brighter, 0.8 = darker)
+	   - Change 20px to adjust glow size (0 = no glow, 30px = bigger glow)
+	   - Change rgba(177, 52, 71, 0.9) to change glow color and opacity (last number is opacity 0-1)
+	*/
+	animation: logoRotate 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards !important;
+	filter: brightness(1.4) drop-shadow(0 0 20px rgba(177, 52, 71, 0.9)) !important;
+}
+
+/* Alternative logo selector if .logo doesn't work */
+.nav-logo img {
+	content: url("https://your-logo-url-here.png") !important;
+	width: 50px !important;
+	height: 44px !important;
+	transition: filter 0.5s ease !important;
+	animation: logoFloat 3s ease-in-out infinite !important;
+	transform-origin: center center !important;
+}
+
+.nav-logo img:hover {
+	animation: logoRotate 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards !important;
+	filter: brightness(1.4) drop-shadow(0 0 20px rgba(177, 52, 71, 0.9)) !important;
+}
+
+/* ====================================================================================================
+   HEADER & BANNER
+   ==================================================================================================== */
+.header-wrap {
+	position: relative;
+	margin: 0 auto;
+	padding: 0 20px; /* Mobile responsive */
+}
+
+	.header-wrap > .banner {
+		border-radius: var(--br);
+		height: 200px;                         /* Banner height - increase (e.g., 250px) for taller banner, decrease for shorter */
+		width: calc(100% - 35px);             /* Banner width - adjust 35px to make wider (smaller number) or narrower (larger number) */
+		margin: 0 auto;
+		filter: drop-shadow(var(--bs));       /* Shadow effect - remove this line to remove shadow */
+		transform: rotate(.4deg);             /* Slight rotation - change to 0deg for straight, or increase for more tilt */
+		transition: var(--htt);               /* Transition speed when hover returns to straight */
+	}
+
+.header-wrap > .banner:hover {
+	transform: rotate(0deg);
+}
+
+.header-wrap > .nav-wrap {
+	border-radius: 0 0 var(--br) var(--br);
+}
+
+.header-wrap > .nav-wrap::before {
+	content: "";
+	height: 175px;
+	width: calc(100% - 40px);
+	position: absolute;
+	bottom: 46px;
+	background-color: rgb(var(--color-foreground));
+	z-index: -1;
+	border-radius: var(--br) var(--br) 0 0;
+}
+
+.header-wrap:hover > .nav-wrap,
+.header-wrap:hover > .nav-wrap::before {
+	box-shadow: var(--hbs);
+}
+
+/* Responsive Header */
+@media (min-width: 1540px) {
+	.header-wrap {
+		max-width: 1520px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.header-wrap > .nav-wrap::before {
+		width: calc(100% - 200px);
+	}
+}
+
+@media (min-width: 1040px) and (max-width: 1540px) {
+	.header-wrap {
+		max-width: 1140px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.header-wrap > .nav-wrap::before {
+		width: calc(100% - 100px);
+	}
+}
+
+/* ====================================================================================================
+   CUSTOM LOGO (Side Logo/Decoration)
+   ==================================================================================================== */
+/* 
+   HOW TO CUSTOMIZE SIDE LOGO:
+   1. Change the image URL on line 407 to your own image
+   2. Adjust size:
+      - background-size: 60% = image size (increase for bigger, decrease for smaller)
+      - width: 12% = container width (adjust to fit your logo)
+      - height: 36% = container height (adjust to fit your logo)
+   3. Adjust position:
+      - top: 85px = distance from top (increase to move down, decrease to move up)
+      - left: 25px = distance from left (increase to move right, decrease to move left)
+   4. To hide this logo completely:
+      - Set opacity: 0 !important; or delete this entire section
+*/
+#app > .page-content::before {
+	content: "" !important;
+	background-image: url("https://files.catbox.moe/wawmwz.png") !important;  /* CHANGE THIS URL to your logo image */
+	background-repeat: no-repeat !important;
+	background-size: 60% !important;          /* Image size - increase % for bigger, decrease for smaller */
+	width: 12% !important;                   /* Container width - adjust to fit your logo */
+	height: 36% !important;                   /* Container height - adjust to fit your logo */
+	position: fixed !important;
+	top: 85px !important;                     /* Distance from top - increase to move down, decrease to move up */
+	left: 25px !important;                    /* Distance from left - increase to move right, decrease to move left */
+	z-index: 1 !important;
+	pointer-events: none !important;
+	opacity: 1 !important;                     /* Change to 0 to hide, or 0.5 for semi-transparent */
+	transition: opacity 0.3s ease !important;
+}
+
+/* Hide logo when activity editor is open or hovered */
+body:has(.activity-feed-wrap > .activity-edit:hover) #app > .page-content::before,
+body:has(.activity-feed-wrap > .activity-edit:focus-within) #app > .page-content::before {
+	opacity: 0 !important;
+}
+
+/* ====================================================================================================
+   CONTENT AREA
+   ==================================================================================================== */
+/* Hide Unwanted Elements */
+.overview > div > .desktop,
+.overview > div > .stats-wrap {
+	display: none;
+}
+
+/* Overview Section */
+.overview > div > .about > .content-wrap {
+	border-radius: var(--br);
+	transition: var(--hbst);
+}
+
+.overview .content-wrap[data-v-5c30286e] {
+	max-height: initial !important;
+	overflow: hidden !important;
+}
+
+.overview > div > .about:hover > .content-wrap {
+	box-shadow: var(--hbs);
+}
+
+div[data-css="show"] {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+}
+
+/* ====================================================================================================
+   ACTIVITY FEED
+   ==================================================================================================== */
+/* 
+   ACTIVITY FEED CUSTOMIZATION:
+   - grid-gap: 30px = spacing between activity entries (increase for more space, decrease for less)
+   - grid-template-columns: repeat(1, 1fr) = single column layout
+     Change to repeat(2, 1fr) for 2 columns, repeat(3, 1fr) for 3 columns, etc.
+*/
+.overview > div > div > .activity-feed {
+	grid-gap: 30px;                            /* Spacing between activity entries - increase for more space, decrease for less */
+	grid-template-columns: repeat(1, 1fr);    /* Layout: 1 column - change to repeat(2, 1fr) for 2 columns, repeat(3, 1fr) for 3 */
+}
+
+.overview > div > div > .activity-feed > .activity-entry {
+	grid-column-start: unset;
+	grid-column-end: unset;
+}
+
+.activity-feed > .activity-entry {
+	margin-bottom: 0;
+	align-self: stretch;
+}
+
+/* Activity Entry Base Styles */
+.activity-entry > .wrap {
+	background: unset;
+	overflow: visible;
+	min-height: 140px;
+}
+
+.activity-entry > .wrap::before {
+	content: "";
+	background: rgb(var(--color-foreground));
+	border-radius: var(--br);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	transition: var(--hbst);
+}
+
+.activity-entry:hover > div::before {
+	box-shadow: var(--hbs);
+}
+
+/* Text & Message Activities */
+.activity-entry > div > .text {
+	min-height: 140px;                        /* Minimum height for text activities - increase for taller entries */
+	padding-left: 30px;                       /* Left padding - increase for more space, decrease for less */
+}
+
+/* Text/Message Activity Indicator Bar */
+.activity-entry.activity-text > .wrap::after,
+.activity-entry.activity-message > .wrap::after {
+	content: "";
+	position: absolute;
+	width: 10px;                               /* Width of colored bar on left - increase for thicker, decrease for thinner */
+	height: 100%;                              /* Height (100% = full height of entry) */
+	top: 0%;
+	left: 0;
+	border-radius: var(--br) 0 0 var(--br);
+	background: rgb(var(--color-blue));       /* Color of indicator bar - change to any color variable or custom color */
+}
+
+/* List Activities (Anime & Manga) */
+.activity-entry.activity-anime_list > .wrap::before,
+.activity-entry.activity-manga_list > .wrap::before {
+	width: calc(100% - 25px);
+}
+
+.activity-entry.activity-anime_list > .wrap::after,
+.activity-entry.activity-manga_list > .wrap::after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 45%;
+	top: calc((100% - 45%) / 2);
+	right: 0;
+	z-index: -1;
+	border-radius: var(--br) 0 0 var(--br);
+}
+
+.activity-entry.activity-anime_list .wrap::after {
+	background: rgb(var(--color-yellow));      /* Anime indicator bar color - change to any color you want */
+}
+
+.activity-entry.activity-manga_list .wrap::after {
+	background: rgb(var(--color-green));       /* Manga indicator bar color - change to any color you want */
+}
+
+/* List Entry Styling */
+.activity-entry > div > .list.small {
+	grid-template-columns: 80px auto;
+	min-height: inherit;
+}
+
+.activity-entry > div > .list.small > .cover {
+	border-radius: var(--br);
+	margin: 10px 0px;
+	filter: drop-shadow(var(--bs)) grayscale(.25);
+	transition: var(--htt), var(--hft);
+}
+
+.activity-entry:hover > div > .list.small > .cover {
+	filter: drop-shadow(var(--bs)) grayscale(.125);
+}
+
+/* Cover Rotation Effects */
+/* 
+   HOW TO ADJUST COVER IMAGE ROTATION:
+   - Change 3deg and -3deg for different tilt angles (0deg = straight, 5deg = more tilted)
+   - Change 1.5deg for hover tilt (half of original for smoother transition)
+   - Change 1.2 in scale() for zoom amount on hover (1.0 = no zoom, 1.5 = bigger zoom)
+   - Change grayscale(0) to grayscale(0.5) for less color on hover, or remove for no color change
+*/
+.activity-entry:nth-child(2n + 1) > div > .list.small > .cover {
+	transform: rotate(3deg);                    /* Odd entries: rotate right - change angle for different tilt */
+}
+
+.activity-entry:nth-child(2n) > div > .list.small > .cover {
+	transform: rotate(-3deg);                  /* Even entries: rotate left - change angle for different tilt */
+}
+
+.activity-entry:nth-child(2n + 1):hover > div > .list.small > .cover {
+	transform: rotate(1.5deg);                  /* Odd entries hover: reduce rotation */
+}
+
+.activity-entry:nth-child(2n):hover > div > .list.small > .cover {
+	transform: rotate(-1.5deg);                /* Even entries hover: reduce rotation */
+}
+
+.activity-entry > div > .list.small > .cover:hover {
+	transform: rotate(0deg) scale(1.2) !important;  /* On direct hover: straighten and zoom - change 1.2 for different zoom */
+	filter: drop-shadow(var(--bs)) grayscale(0) !important;  /* Remove grayscale on hover - change 0 to 0.5 for partial color */
+}
+
+/* List Details */
+.activity-entry > div > .list.small > .details {
+	display: grid;
+	grid-template-columns: 45px 1fr;
+	row-gap: 5px;
+	padding: 20px 15px;
+	max-height: 140px;
+}
+
+.activity-entry > div > .list.small > div > .name {
+	display: inherit;
+	order: 1;
+	align-self: center;
+	padding-bottom: 0px;
+	margin-left: 12px;
+}
+
+.activity-entry > div > div > div > .name {
+	color: rgb(var(--color-blue));            /* Username color - change to any color variable (--color-red, --color-yellow, etc.) */
+	font-size: 2rem;                           /* Font size - increase (2.5rem) for bigger, decrease (1.5rem) for smaller */
+	font-weight: 800;                          /* Font weight - 400 = normal, 600 = semi-bold, 800 = extra-bold, 900 = black */
+}
+
+.activity-entry > div > .list.small > div > .status {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	order: 2;
+}
+
+.activity-entry > div > .list.small > div > div > .title {
+	font-weight: 800;                          /* Title font weight - adjust from 400 (normal) to 900 (boldest) */
+	font-size: 1.6rem;                         /* Title font size - increase for bigger titles, decrease for smaller */
+	display: table;                            /* Prevents entire line from being clickable - keep this as-is */
+}
+
+/* Title Colors */
+/* credits @hoh */
+.activity-manga_list > div > div > div > div > .title,
+.hohPinned .list .title[href^="/manga/"] {
+	color: rgba(var(--color-green)) !important;
+}
+
+/* credits @hoh */
+.activity-anime_list > div > div > div > div > .title,
+.hohPinned .list .title[href^="/anime/"] {
+	color: rgba(var(--color-yellow)) !important;
+}
+
+.activity-entry > div > .list.small > div > .avatar {
+	display: inherit;
+	order: 0;
+	margin-top: 0;
+	margin-left: 5px;
+	height: 40px;
+	width: 40px;
+	align-self: center;
+}
+
+.activity-entry > div > .list.small > div > .entry-dropdown {
+	display: none;
+}
+
+/* Activity Entry Meta */
+.activity-entry > div > .actions {
+	right: 15px;
+	bottom: 10px;
+}
+
+.activity-entry > div > .time {
+	top: 10px;
+	right: 15px;
+	opacity: .5;
+}
+
+/* Activity Replies */
+.activity-entry > div > .activity-replies {
+	margin-top: 0;
+	background: rgb(var(--color-foreground));
+	border-radius: 0 0 var(--br) var(--br);
+	transition: var(--hbst);
+}
+
+.activity-entry:hover > div > .activity-replies {
+	box-shadow: var(--hbs);
+}
+
+.activity-entry.activity-anime_list > div > .activity-replies,
+.activity-entry.activity-manga_list > div > .activity-replies {
+	margin-left: 45px;
+}
+
+.activity-entry > div > div > .reply,
+.activity-entry > div > div > .activity-edit {
+	margin: 0 10px;
+	border-top: 2px solid rgb(var(--color-background));
+}
+
+/* ====================================================================================================
+   ACTIVITY EDITOR
+   ==================================================================================================== */
+/* 
+   ACTIVITY EDITOR CUSTOMIZATION:
+   - top: 105px = distance from top of page
+   - left: -405px = hidden position (negative = off-screen)
+   - width: 420px = editor width when open
+   - To change slide-in speed: adjust 0.5s in transition
+   - To change default position: adjust top value
+*/
+.activity-feed-wrap > .activity-edit {
+	position: fixed;
+	top: 105px;                                /* Distance from top - increase to move down */
+	left: -405px;                              /* Hidden position - make more negative (e.g., -500px) to hide more, less negative to show partially */
+	padding: 15px 30px 15px 15px;             /* Padding: top right bottom left - adjust for spacing inside editor */
+	width: 420px;                              /* Editor width when open - increase for wider editor, decrease for narrower */
+	z-index: 9999;
+	transition: left 0.5s ease, var(--hbst);   /* Slide-in speed - change 0.5s to 0.3s for faster, 0.8s for slower */
+}
+
+.activity-feed-wrap > .activity-edit:hover,
+.activity-feed-wrap > .activity-edit:focus-within {
+	left: 0px;
+}
+
+.activity-feed-wrap > .activity-edit:hover::before {
+	box-shadow: var(--hbs);
+}
+
+.activity-feed-wrap > .activity-edit::before {
+	content: "";
+	background: rgb(var(--color-foreground));
+	width: calc(100% - 0px);
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 0 calc(var(--br) + 4px) calc(var(--br) + 4px) 0;
+	transition: var(--hbst);
+}
+
+.activity-feed-wrap > .activity-edit::after {
+	content: "";
+	background: rgb(var(--color-blue));
+	width: 15px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 0 var(--br) var(--br) 0;
+}
+
+/* Editor Components */
+.activity-feed-wrap > .activity-edit > .markdown-editor {
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.activity-edit > .input.el-textarea {
+	margin: 0;
+}
+
+.activity-feed-wrap > .activity-edit > .input.el-textarea > .el-textarea__inner {
+	background: rgb(var(--color-background));
+	max-height: 25vh;
+	border-radius: var(--br);
+}
+
+.activity-feed-wrap > .activity-edit > .section-header {
+	width: 14%;
+	margin: 10px auto;
+	padding-left: 0;
+}
+
+.activity-edit > .activity-entry.preview.activity-text {
+	margin: 0;
+}
+
+.activity-edit > .activity-entry.preview.activity-text > .wrap {
+	background: rgb(var(--color-background));
+	max-height: 40vh;
+	border-radius: var(--br);
+	overflow: auto;
+}
+
+.activity-edit > .activity-entry.preview.activity-text > .wrap::after {
+	display: none;
+}
+
+.activity-edit > .activity-entry.preview.activity-text > div > div > div > .name {
+	color: rgb(var(--color-blue));
+}
+
+.activity-edit > .actions {
+	margin-bottom: 0;
+	margin-top: 10px;
+	justify-content: space-between;
+}
+
+.activity-edit > div > .button {
+	border-radius: var(--br);
+	margin: 0;
+	transition: var(--htt);
+}
+
+.activity-edit > div > .button.save {
+	color: rgb(var(--color-foreground));
+}
+
+.activity-edit > div > .button.cancel {
+	background: rgb(var(--color-background));
+	color: rgb(var(--color-text));
+}
+
+.activity-edit > div > .button:hover {
+	transform: rotate(3deg);
+	box-shadow: none;
+}
+
+.activity-edit > .input > .el-textarea__inner:focus {
+	box-shadow: none;
+}
+
+.activity-edit > .input > .el-textarea__inner,
+.activity-edit > .actions > .button {
+	transition: .2s, background 0s, color 0s;
+}
+
+/* Activity Reply Editor */
+.activity-replies > .activity-edit > .markdown-editor {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+.activity-replies > .activity-edit > .input.el-textarea > .el-textarea__inner {
+	background: rgb(var(--color-background));
+	margin: 10px 0;
+	border-radius: var(--br);
+}
+
+.activity-replies > .activity-edit > .section-header {
+	width: 16%;
+	margin: 0px auto;
+	padding-left: 0;
+}
+
+.activity-replies > .activity-edit > .reply.preview {
+	margin-top: 10px;
+	background: rgb(var(--color-background));
+	border-radius: var(--br);
+	margin-bottom: 10px;
+}
+
+.activity-replies > .activity-edit > .actions {
+	padding-bottom: 15px;
+	margin-top: 0;
+}
+
+/* ====================================================================================================
+   LOAD MORE BUTTON
+   ==================================================================================================== */
+.scroller > .load-more {
+	border-radius: var(--br);
+	width: 43%;                                /* Button width - increase (50%) for wider button, decrease (30%) for narrower */
+	margin: 0 auto;
+	margin-top: 30px;                          /* Spacing above button - increase for more space, decrease for less */
+	transition: var(--hbst), var(--htt), var(--hct);
+}
+
+.scroller > .load-more:hover {
+	box-shadow: var(--hbs);
+	transform: rotate(1deg);                   /* Hover rotation - change to 0deg for no rotation, or increase for more tilt */
+}
+
+/* ====================================================================================================
+   FOOTER
+   ==================================================================================================== */
+#app > .wrap {
+	margin-top: 30px;
+}
+
+#app > div > .footer {
+	width: 75%;                                 /* Footer width - change to 100% for full width, or smaller % for narrower */
+	padding: 30px;                              /* Footer padding - increase for more spacing inside, decrease for less */
+	margin: 0 auto;
+	border-radius: var(--br) var(--br) 0 0;    /* Rounded top corners - uses --br variable */
+	transition: var(--hbst);
+}
+
+.footer:hover {
+	box-shadow: var(--hbs);
+}
+
+.footer > div > .links {
+	margin: 0 auto;
+}
+
+.footer > div > div > section:first-child {
+	margin-left: 0px;
+}
+
+.footer > div > div > section:nth-child(n + 2) {
+	margin-left: 200px;
+}
+
+.footer > div > div > section > a::after {
+	content: "" !important;
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	left: 0;
+	top: calc(50% - 5px);
+	border-radius: var(--br);
+}
+
+.footer > div > .links > section:nth-child(2n + 1) > a::after {
+	background: rgb(var(--color-yellow));
+}
+
+.footer > div > .links > section:nth-child(2n) > a::after {
+	background: rgb(var(--color-red));
+}
+
+/* ====================================================================================================
+   HOHPINNED (Custom Pinned Activity)
+   ==================================================================================================== */
+/* 
+   HOHPINNED CUSTOMIZATION (Custom Pinned Activity):
+   - top: 700px = distance from top - adjust to move up/down
+   - right: calc(2vw - 30px) = distance from right edge - adjust 30px value
+   - max-width: 260px = maximum width - increase for wider, decrease for narrower
+   - To hide completely: uncomment "display: none;" below
+*/
+.hohPinned {
+	position: absolute;
+	top: 700px;                                /* Distance from top - increase to move down, decrease to move up */
+	right: calc(2vw - 30px);                   /* Distance from right - adjust 30px (increase to move left, decrease to move right) */
+	max-width: 260px;                          /* Maximum width - increase for wider pinned box, decrease for narrower */
+	/* display: none; */                        /* Uncomment this line to hide the pinned activity completely */
+}
+
+.hohPinned > div::before,
+.hohPinned > div::after {
+	display: none;
+}
+
+.hohPinned > div > .time {
+	transition: opacity 0.2s ease;
+	opacity: .2 !important;
+	top: 15px !important;
+	right: 15px !important;
+}
+
+.hohPinned > div > .time:hover {
+	background: none !important;
+}
+
+.hohPinned > div > .actions {
+	opacity: .2;
+	transition: opacity 0.2s ease;
+}
+
+.hohPinned > div > .text {
+	padding: 0 !important;
+}
+
+.hohPinned > div > div > .header {
+	display: none;
+}
+
+.hohPinned > div > div > .activity-markdown {
+	font-size: unset;
+	line-height: unset;
+}
+
+.hohPinned > div > div > div > .markdown {
+	margin: 0;
+}
+
+.hohPinned > div > div > div > div > p {
+	margin: 0;
+}
+
+.hohPinned > div > div > div > div > center > img {
+	border-radius: var(--br);
+}
+
+.hohPinned:hover > div > .time,
+.hohPinned:hover > div > .actions {
+	opacity: 1 !important;
+}
+
+.hohPinned > div > div > div > div > .button.liked {
+	color: rgb(var(--color-red));
+}
